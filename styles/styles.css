@@ -1,0 +1,16 @@
+.navbar{
+    display: block;
+    text-decoration: none;
+}
+
+.inlineNavLink{
+    display: inline;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
