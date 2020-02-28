@@ -171,28 +171,44 @@ a:hover{
   to {opacity: 1}
 }
 
-.card{
-    display: block;
+#threeCards{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -20%;
 }
 
-displayNone{
+.card{
+    display: inline-block;
+    font-family: 'ubuntu';
+    overflow: hidden;
+}
+
+.displayNone{
     display: none;
 }
 
-displayNone:hover{
+.displayNone:hover{
     display: block;
-    position: relative;
 }
 
-displayNoneHover:hover{
+.displayNoneHover:hover{
     display: none;
 }
 
 .growImage{
     transition: .2s;
-    max-width: 20%;
+    width: 100%;
+    height: 100%;
 }
 
 .growImage:hover{
     transform: scale(1.2);
+}
+
+.cardText{
+    position: absolute;
+    bottom: 90px;
 }
