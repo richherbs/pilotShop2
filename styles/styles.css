@@ -25,7 +25,6 @@ a:hover{
 
 .navbar{
     list-style-type: none;
-    position: relative;
     text-align: right;
     top: 1rem;
     width: 80%;
@@ -52,12 +51,12 @@ a:hover{
 #accountBar{
     background-color: #f8f8f8;
     height: 3rem;
+    padding: 1rem 0;
 }
 
 #breadCrumbs{
     height: 6rem;
-    position: relative;
-    top: 2rem;
+    padding: 2rem 0;
 }
 
 .clearBackgroundButton{
