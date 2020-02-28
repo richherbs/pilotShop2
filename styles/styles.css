@@ -170,3 +170,29 @@ a:hover{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.card{
+    display: block;
+}
+
+displayNone{
+    display: none;
+}
+
+displayNone:hover{
+    display: block;
+    position: relative;
+}
+
+displayNoneHover:hover{
+    display: none;
+}
+
+.growImage{
+    transition: .2s;
+    max-width: 20%;
+}
+
+.growImage:hover{
+    transform: scale(1.2);
+}
