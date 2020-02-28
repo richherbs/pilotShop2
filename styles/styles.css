@@ -1,0 +1,35 @@
+body{
+    margin: none;
+}
+
+a,select, input, button, select{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #BABABB;
+    border: none;
+    background-color: #f8f8f8;
+}
+
+a:hover{
+    color: #6aa0cc;
+}
+
+.display-inline{
+    display: inline;
+}
+
+.navbar{
+    list-style-type: none;
+    position: relative;
+    top: 1rem;
+}
+
+.float-left{
+    float: left;
+}
+
+#accountBar{
+    background-color: #f8f8f8;
+    text-align: right;
+    height: 3rem;
+}
