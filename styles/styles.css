@@ -1,13 +1,10 @@
-body{
-    margin: none;
-}
-
 a,select, input, button, select{
     text-decoration: none;
     margin: 0 1rem;
     color: #BABABB;
     border: none;
     background-color: #f8f8f8;
+    font-family: 'ubuntu';
 }
 
 a:hover{
