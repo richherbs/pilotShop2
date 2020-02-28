@@ -28,12 +28,17 @@ a:hover{
     float: left;
 }
 
-.outlineButton{
-    border: 0.25rem solid #000000;
-    background-color: none;
+.outlineButton {
+    background-color: #ffffff;
     color: #000000;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
+    border: 0.25rem solid #ffffff;
+}
+
+.outlineButton:hover,.currentPageOutlineButton{
+    color: #000000;
+    border-color: #000000;
 }
 
 #accountBar{
