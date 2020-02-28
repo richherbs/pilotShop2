@@ -7,26 +7,42 @@ a,select, input, button, select{
     font-family: 'ubuntu';
 }
 
-a:hover{
-    color: #6aa0cc;
-}
-
 .display-inline{
     display: inline;
+}
+
+a:hover{
+    color: #6aa0cc;
 }
 
 .navbar{
     list-style-type: none;
     position: relative;
+    text-align: right;
     top: 1rem;
+    width: 80%;
+    margin: auto;
 }
 
 .float-left{
     float: left;
 }
 
+.outlineButton{
+    border: 0.25rem solid #000000;
+    background-color: none;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
 #accountBar{
     background-color: #f8f8f8;
-    text-align: right;
     height: 3rem;
+}
+
+#breadCrumbs{
+    height: 6rem;
+    position: relative;
+    top: 2rem;
 }
